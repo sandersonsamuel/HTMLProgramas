@@ -13,7 +13,7 @@ Esses são projetos usados para aprendizado em css 3 e html 5
 
 <a href="https://sandersonsamuel.github.io/HTMLSites/Relógio">Relógio
 
-<a href="https://sandersonsamuel.github.io/HTMLSites/AkiseDeclarações">Pedido de Casamento
+<a href="https://sandersonsamuel.github.io/HTMLSites/akiseDeclarações">Pedido de Casamento
 
 
 
