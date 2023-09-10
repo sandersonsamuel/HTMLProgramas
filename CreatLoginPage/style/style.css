@@ -1,0 +1,214 @@
+*{
+    font-family: Poppins;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.conteiner{
+    width: 100%;
+    height: 100%;
+    background-image: url("style/image/6222618.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    color: #ffffff;
+    padding: 5px;
+}
+.blur-box{
+    background: #ffffff10;
+    width: 1200px;
+    max-width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 40px;
+}
+.criar-conta-subdiv{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.criar-conta{
+    display: row;
+    background-color: #4d148976;
+    border-radius: 20px 0px 0px 20px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: #fefefe;
+    font-family: Poppins;
+}
+#logintxt1{
+    color: white;
+    display: inline-block;
+    font-size: 270%;
+    font-weight: lighter;
+    margin-top: 0;
+}
+.inputs{
+    border: #ffffffb2 solid;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 5px;
+    width: 252px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#logintxt2{
+    color: #8653bd;
+    font-size: 270%;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 0;
+}
+#logintxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#criar-contatxt1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 33%;
+}
+#criar-contatxt2{
+    font-weight: bold;
+    margin-top: 28%;
+    display: inline-block;
+}
+#criar-contatxt3{
+    display: inline-block;
+}
+#criar-conta-login{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+}
+.btn-login-criar-conta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #ececec;
+    background: #00000083;
+    width: 35%;
+    height: 90%;
+    text-align: center;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 30px;
+    border: #ffffffb2 solid;
+    font-weight: lighter;
+    font-size: 70%;
+}
+.btn-login-criar-conta:hover{
+    cursor: pointer;
+}
+.input-criar-conta[type = "submit"]{
+    font-family: Poppins;
+    font-weight: bold;
+    color: #ececec;
+    background: #20133a;
+    width: 70%;
+    height: 10%;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 30px;
+    border: #ffffffb2 solid;
+    font-weight: lighter;
+    font-size: medium;
+}
+.input-criar-conta[type = "submit"]:hover{
+    cursor: pointer;
+    background: #140c24;
+
+}
+.login{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#input1{
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+}
+input[type="text"],input[type="password"]:focus{
+    outline: none;
+}
+input::placeholder{
+    color: #fefefeb3;
+    text-align: center;
+}
+#input2{
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 80%;
+    height: 37px;
+    background-color: transparent;
+}
+input[type = "checkbox"]{
+    display: inline-block;
+
+}
+li{
+    list-style-type: none;
+}
+label{
+    margin-right: 5px;
+    color: #fefefeca;
+}
+a{
+    display: inline-block;
+    color: #fefefeca;
+    margin-left: 5px;
+}
+div#esqueceu-senha{
+    margin-top: 7px;
+}
+.input-login{
+    font-family: Poppins;
+    font-weight: bold;
+    color: #ececec;
+    background: #522f77;
+    width:65%;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 30px;
+    border: #ffffffb2 solid;
+    font-weight: lighter;
+    font-size: medium;
+}
+.input-login:hover{
+    cursor: pointer;
+    background: #3b2157;
+}

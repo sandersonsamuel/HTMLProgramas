@@ -1,0 +1,17 @@
+@media screen and (max-width:760px){
+    *{
+        font-size: 55px;
+    }
+    .conteiner{
+        width: 90%;
+        height: 30%;
+    }
+    .conteiner div{
+        width: 100px;
+        height: 60%;
+    }
+    .tempo{
+        font-size: 15px;
+    }
+    
+}

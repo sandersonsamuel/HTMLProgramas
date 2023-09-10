@@ -1,0 +1,29 @@
+@media screen and (max-width: 860px) {
+
+    h1{
+        font-size: 100%;
+    }
+    .area{
+        width: 70%;
+    }
+    .media{
+        font-size: 100%;
+    }
+    .botao{
+        width: 100px;
+        height: 30px;
+        font-family: Poppins;
+        border-radius: 50px;
+        font-size: 80%;
+        background-color: #4d1489;
+        color: #fefefe;
+        border: none;
+    }
+    .inputs{
+        height: 40%;
+    }
+    .inputArea{
+        width: 20%;
+        height: 20%;
+    }
+}

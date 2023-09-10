@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Casamento</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins&display=swap');
+
+        
+        .conteiner{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0px;
+        }
+        h1{
+            font-size: 70px;
+            margin: 0px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(77, 251, 129);
+        }
+        #buttons-box{
+            width: 300px;
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        button{
+            margin: 10px;
+            width: 150px;
+            height: 60px;
+            border-radius: 30px;
+            font-size: 50px;
+            color: rgb(255, 131, 114);
+            background-color: blueviolet;
+            border: none;
+            box-shadow: 3px 3px 5px #232323;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div id="text-box">
+            <h1>Quer Casar Comigo?
+                <3
+            </h1>
+        </div>
+        <img src="https://i0.wp.com/iphaids.org/wp-content/uploads/2019/12/28_gifs-romanticos-imagens.gif?w=600&ssl=1" alt="Coração dando flores para outro coração">
+        <div id="buttons-box">
+            <button id="sim"><a href="https://www.vivara.com.br/anel-solitario-classic-em-ouro-branco-18k-com-diamante-15-ct-an00048372/p?gclid=Cj0KCQjwgNanBhDUARIsAAeIcAu73Pygum9SlU7bp61e_RjpggRCVHno3QiCajw8kY0DoRUpU3kuYGoaAju2EALw_wcB">Sim</a></button>
+            <button id="nao">Não</button>
+        </div>
+    </div>
+    <script>
+        const button = document.getElementById("nao")
+        const height = innerHeight -50;
+        const width = innerWidth -50;
+    
+        button.addEventListener("mouseover", function() {
+            button.style.position = "absolute"
+            button.style.top = Math.random() * height + "px"
+            button.style.left = Math.random() * width + "px"
+        });
+    </script>
+</body>
+</html>

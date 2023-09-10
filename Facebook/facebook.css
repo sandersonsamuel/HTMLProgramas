@@ -1,0 +1,57 @@
+    .btnCriarConta{
+        cursor: pointer;
+        background-color: #1F7A8C;
+        color: #BFDBF7;
+        font-size: medium;
+        border-color: #BFDBF7;
+        border-radius: 10px;
+        padding: 1%;
+        border-style: none;
+        box-shadow: 3px 3px 5px #022B3A;
+
+    }
+
+    .btnCriarConta:hover{
+        background-color: #022B3A;
+        transition: background 1s;
+
+    }
+
+    .btnEntrar{
+        cursor: pointer;
+        background-color: #1F7A8C;
+        color: #BFDBF7;
+        border-color: #BFDBF7;
+        padding: 1%;
+        border-radius: 10px;
+        border-style: none;
+        box-shadow: 3px 3px 5px #022B3A;
+    }
+    .btnEntrar:hover{
+        background-color: #022B3A;
+        transition: background 1s;
+        
+    }
+    .esqueceuSenha{
+        font-size: medium;
+        cursor: pointer;
+
+    }
+    .user{
+        border-style: solid;
+        border-radius: 10px;
+        padding: 0.5%;
+        
+
+        
+    }
+    .senha{
+        border-style: solid;
+        border-radius: 10px;
+        padding: 0.5%;
+    }
+    .area{
+        background: linear-gradient(315deg, #cacaca, #f0f0f0);
+        box-shadow:  -5px 20px 50px #bcbcbc,
+        5px 5px 100px #ffffff;
+    }

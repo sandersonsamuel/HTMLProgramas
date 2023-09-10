@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cabecalho{
+  position: relative;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+}
+
+#box-cabecalho{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px 0px 25px;
+  font-family: Montserrat;
+}
+
+#rodape-icons {
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+#rodape-icons i{
+  font-size: 30px;
+  transition: .5s;
+  transition-timing-function: ease;
+
+}
+
+#rodape-icons i:hover{
+
+  font-size: 40px;
+
+}
+
+i{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#box-logo{
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  font: 800;
+  cursor: pointer;
+}
+
+ul{
+
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+#circulo{
+
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: #e4bc3c;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+img{
+  pointer-events: none;
+  width: 18%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.rodape{
+
+  color: #242424;
+  font: 400;
+  padding: 0px 15px 25px 15px;
+  align-items: center;
+  width: 100vw;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.rodape h1{
+  font-family: Montserrat;
+  font-size: small;
+  font-size: 20px;
+}
+
+#txt-direita{
+  color: #242424;
+  font-family: Montserrat;
+  font: 800;
+  font-size: 40px;
+  position: absolute;
+  top: 55%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+
+}
+#paragrafo{
+  position: absolute;
+  top: 35%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  font-family: Poppins;
+  width: 25%;
+  font-size: 15px;
+
+
+}
+
+#criar-conta:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 5px;
+  text-decoration-color: #e4bc3c;
+}
+
+#tenho-conta:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+  text-underline-offset: 5px;
+  text-decoration-color: #e4bc3c;
+}
