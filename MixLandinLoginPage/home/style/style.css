@@ -202,21 +202,29 @@ img{
 }
 
 @media screen and (max-width: 730px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   #conteiner{
     width: 100vw;
-    height: 122.9vh;
   }
-  .rodape{
+  .rodape {
+    min-width: 100%;
     color: aliceblue;
     background-color: #242424;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100.2vw;
-    height: 100px;
-    top: 150%;
+    width: 100%;
     padding: 15px;
+    position: absolute;
+    top: 145%;
+    transform: translate(-50%);
   }
   .rodape h1{
     font-size: 20px;
@@ -298,7 +306,7 @@ img{
     top: 148%;
   }
   #circulo{
-    top: 106%;
+    top: 110%;
     width: 300px;
     height: 300px;
   }
