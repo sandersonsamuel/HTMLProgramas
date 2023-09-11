@@ -189,6 +189,9 @@ input:focus{
     img{
         width: 70px;
     }
+    p{
+        font-size: 65%;
+    }
 }
 
 @media screen and (max-width:1000px) {
