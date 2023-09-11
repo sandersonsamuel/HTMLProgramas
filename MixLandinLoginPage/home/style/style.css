@@ -59,9 +59,8 @@ i{
 
 #box-logo{
   display: flex;
-  font-size: 15px;
+  font-size: 20px;
   align-items: center;
-  font: 800;
   cursor: pointer;
 }
 
@@ -95,7 +94,7 @@ a{
 
 img{
   pointer-events: none;
-  width: 235px;
+  width: 255px;
   position: absolute;
   top: 100%;
   left: 50%;
