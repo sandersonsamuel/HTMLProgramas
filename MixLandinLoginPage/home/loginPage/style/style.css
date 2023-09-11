@@ -171,12 +171,6 @@ input:focus{
 
 /*responsive configs*/
 
-@media screen and (min-width: 1190px) {
-    img{
-        width: 70px;
-    }
-}
-
 @media screen and (max-width:1000px) {
     #top-box button{
         font-size: 70%;
