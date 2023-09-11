@@ -85,6 +85,11 @@ header{
     background-color: brown;
     border-radius: 5px;
     font-size: 90%;
+    box-shadow: rgb(116, 30, 30) 1px 1px 0px 1px;
+}
+#top-box button:active{
+    width: 24%;
+    height: 29px;
 }
 
 /*Bottom Bom*/
@@ -150,19 +155,28 @@ i{
     font-size: 15px;
 }
 
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124.7px;
+    height: 37.98px;
+}
+
 #botao-login{
     color: brown;
     border: none;
     margin: 10px;
     font-size: 100%;
-    width: 30%;
-    height: 13%;
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
     background-color: blanchedalmond;
+    box-shadow: rgb(116, 30, 30) 1px 1px 0px 1px;
 }
-
-#botao-login:hover{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.344);
+#botao-login:active{
+    width: 80%;
+    height: 90%;
 }
 
 input:focus{
