@@ -211,6 +211,9 @@ input:focus{
     .conteiner{
         width: 85%;
     }
+    img{
+        width: 18.8%;
+    }
 }
 
 @media screen and (max-width:380px) {
