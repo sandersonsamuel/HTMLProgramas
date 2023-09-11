@@ -202,17 +202,14 @@ input:focus{
     img{
         width: 20%;
     }
-    #circulo{
-        top: 17.5%;
-    }
 }
 
 @media screen and (max-width:460px) {
     .conteiner{
         width: 85%;
     }
-    img{
-        width: 18.8%;
+    #circulo{
+        top: 17.5%;
     }
 }
 
