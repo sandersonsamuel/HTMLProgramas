@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300&display=swap');
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -13,7 +17,7 @@
 }
 
 #cabecalho{
-  position: relative;
+  position: absolute;
   width: 100vw;
   height: 15vh;
   display: flex;
@@ -91,7 +95,7 @@ a{
 
 img{
   pointer-events: none;
-  width: 18%;
+  width: 235px;
   position: absolute;
   top: 100%;
   left: 50%;
@@ -154,4 +158,149 @@ img{
   text-decoration-thickness: 2.5px;
   text-underline-offset: 5px;
   text-decoration-color: #e4bc3c;
+}
+
+/*Responsive Area*/
+
+@media screen and (max-width: 1070px) {
+
+  #txt-direita{
+    left: 75%;
+    font-size: 30px;
+  }
+  a{
+    font-size: 20px;
+  }
+  #paragrafo{
+    font-size: 15px;
+  }
+  #circulo{
+    width: 340px;
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #txt-direita{
+    left: 76%;
+    font-size: 27px;
+  }
+  a{
+    font-size: 17px;
+  }
+  #rodape-icons{
+    width: 20%;
+    gap: 5px;
+    font-size: 20%;
+  }
+  #paragrafo{
+    left: 15%;
+    font-size: 13px;
+  }
+  .rodape h1{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  #conteiner{
+    width: 100vw;
+    height: 122.9vh;
+  }
+  .rodape{
+    color: aliceblue;
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100.2vw;
+    height: 100px;
+    top: 150%;
+    padding: 15px;
+  }
+  .rodape h1{
+    font-size: 20px;
+    align-self: center;
+  }
+  #mini-menu{
+    display: none;
+  }
+  #cabecalho{
+    position: inherit;
+    height: 200px;
+    width: 100%;
+    background-color: #242424;
+    color: aliceblue;
+  }
+  #box-cabecalho{
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: #242424 0px 3px 10px;
+  }
+  #box-logo{
+    font-size: 20px;
+    display: flex;
+  }
+  #box-logo h1{
+    font-weight: 800;
+  }
+  #txt-direita{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    display: flex;
+    top: 75%;
+    left: 50%;
+    font-size: 25px;
+  }
+  #txt-direita h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #paragrafo{
+    width: 100vw;
+    top: 52%;
+    left: 50%;
+    padding: 10px;
+    text-align: justify;
+  }
+  #paragrafo p{
+    font-family: Montserrat;
+    text-justify: auto;
+    width: 100%;
+    font-size: 25px;
+  }
+  ul{
+    justify-content: center;
+    display: block;
+    align-items: center;
+    gap: 10px;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+  li{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ul-lista{
+    column-count: 2;
+  }
+  a{
+    font-size: 20px;
+    color: aliceblue;
+  }
+  img{
+    width: 200px;
+    top: 148%;
+  }
+  #circulo{
+    top: 106%;
+    width: 300px;
+    height: 300px;
+  }
 }
